@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadLayout">
+        <attr name="error_view"  format="reference"/>
+        <attr name="empty_view"  format="reference"/>
+        <attr name="time_out_view"  format="reference"/>
+        <attr name="no_net_view"  format="reference"/>
+
+        <attr name="location_fail_view"  format="reference"/>
+        <attr name="no_order_view"  format="reference"/>
+        <attr name="no_message_view"  format="reference"/>
+        <attr name="no_collect_view"  format="reference"/>
+        <attr name="search_empty_view"  format="reference"/>
+        <attr name="no_login_view"  format="reference"/>
+    </declare-styleable>
+</resources>

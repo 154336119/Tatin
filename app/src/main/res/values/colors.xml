@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#3d82f7</color>
+    <color name="colorPrimaryDarkText">#5085f9</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">#3d82f7</color>
+    <!--<color name="colorAccent">#ad1234</color>-->
+    <color name="windowBacground">#f7f7ff</color>
+
+
+    <color name="bg_app">#F1F1F1</color>
+
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="bg_btn">#dadada</color>
+    <color name="split_line_color">#EBECF5</color>
+    <color name="split_line_vertical_color">#739dfa</color>
+    <color name="common_text_color">#999999</color>
+    <color name="color_b5c8fc">#b5c8fc</color>
+    <color name="color_62d0aa">#62d0aa</color>
+    <color name="color_f27a74">#f27a74</color>
+    <color name="color_ff6961">#ff6961</color>
+    <color name="color_555555">#555555</color>
+    <color name="color_c1cbe3">#c1cbe3</color>
+    <color name="color_eef6ff">#eef6ff</color>
+    <color name="color_f56962">#f56962</color>
+    <color name="color_3d82f7">#3d82f7</color>
+    <color name="color_d6def3">#d6def3</color>
+    <color name="color_c2cae0">#c2cae0</color>
+    <color name="color_ff3838">#ff3838</color>
+    <color name="darkGray">#757575</color><!--暗灰色#A9A9A9 -->
+    <color name="alertdialog_line">#398AF3</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="color_46495A">#46495A</color>
+    <color name="edittext_hint_B6BC8">#B6B8C8</color>
+</resources>

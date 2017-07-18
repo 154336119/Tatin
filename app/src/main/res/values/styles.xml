@@ -1,0 +1,147 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="actionMenuTextColor">@color/colorPrimaryDarkText</item>-->
+        <!--<item name="android:windowBackground">@color/windowBacground</item>-->
+        <!--<item name="toolbar_navigationIcon">@mipmap/back</item>-->
+        <!--<item name="toolbar_under_line">@color/split_line_color</item>-->
+        <!--<item name="toolbar_title_textcolor">@color/color_555555</item>-->
+        <item name="colorPrimary">#3d82f7</item>
+        <item name="colorPrimaryDark">#3d82f7</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">#ffffff</item>
+        <item name="android:windowBackground">@color/windowBacground</item>
+        <item name="toolbar_navigationIcon">@mipmap/back_white</item>
+        <item name="toolbar_under_line">@color/color_3d82f7</item>
+        <item name="toolbar_title_textcolor">@color/white</item>
+    </style>
+    <style name="AppHomeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+    <style name="AppMsgTheme" parent="AppTheme">
+        <item name="actionMenuTextColor">#ff3833</item>
+    </style>
+    <style name="AppOrderDetailTheme" parent="AppTheme">
+        <item name="colorPrimary">#3d82f7</item>
+        <item name="colorPrimaryDark">#3d82f7</item>
+        <item name="actionMenuTextColor">#ffffff</item>
+        <item name="toolbar_navigationIcon">@mipmap/back_white</item>
+        <item name="toolbar_under_line">@color/color_3d82f7</item>
+        <item name="toolbar_title_textcolor">@color/white</item>
+    </style>
+    <style name="AppHomeFirstTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#3d82f7</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/colorPrimaryDarkText</item>
+        <item name="android:windowBackground">@color/windowBacground</item>
+    </style>
+    <style name="CardViewCommonTheme">
+        <item name="cardCornerRadius">6dp</item>
+    </style>
+    <!--提交按钮样式-->
+    <style name="commit_btn_style">
+        <item name="android:background">@drawable/tatin_btn_common_enable_select</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!--登录注册页面文字按钮样式-->
+    <style name="login_text_btn_style">
+        <item name="android:textColor">@color/colorPrimaryDarkText</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="WebviewDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">false</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimAmount">0.6</item>
+        <!-- 点击空白区域不自动关闭 -->
+        <!-- <item name="android:windowCloseOnTouchOutside">false</item> -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+    <style name="edt_phone">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">#bfbfbf</item>
+        <item name="android:background">@drawable/tatin_edittext_bg</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">13</item>
+    </style>
+    <style name="edt_password">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">#bfbfbf</item>
+        <item name="android:background">@drawable/tatin_edittext_bg</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:digits">@string/filter_password</item>
+    </style>
+    <style name="MyDialogStyle" parent="android:style/Theme.Dialog">
+
+        <!-- 有无边框 -->
+        <item name="android:windowFrame">@android:color/transparent</item>
+        <!-- 是否悬浮在activity上 -->
+        <item name="android:windowIsFloating">false</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 设置有无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置背景是否模糊显示 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="BtnCommonStyle">
+        <item name="android:background">@drawable/tatin_btn_common_enable_select</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="edt_common">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">#bfbfbf</item>
+        <item name="android:background">@drawable/tatin_edittext_bg</item>
+    </style>
+    <style name="edt_normol">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">#bfbfbf</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="orderTag">
+        <item name="android:text">@string/s_order_tag</item>
+        <item name="android:textSize">@dimen/common_text_size</item>
+        <item name="android:textColor">@color/color_46495A</item>
+        <item name="android:background">@drawable/divide_right</item>
+    </style>
+</resources>

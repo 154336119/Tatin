@@ -1,0 +1,117 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'android-apt'
+import java.text.SimpleDateFormat
+def mVersionCode = 1
+def mVersionName = "1.0.0"
+
+
+android {
+    //编译SDK的版本
+    compileSdkVersion COMPILE_SDK_VERSION as int
+    //buildtool 的版本
+    buildToolsVersion BUILD_TOOLS_VERSION
+    defaultConfig {
+        //应用包名
+        applicationId APPLICATION_ID
+        //支持最小android sdk 版本
+        minSdkVersion MIN_SDK_VERSION as int
+        // 目标版本
+        targetSdkVersion TARGET_SDK_VERSION as int
+        //应用版本号
+        versionCode VERSION_CODE as int
+        //应用版本名称
+        versionName VERSION_NAME
+        multiDexEnabled true
+        buildConfigField "String", "APP_NAME", APP_NAME
+        buildConfigField "String", "APP_ANDROID", APP_ANDROID as String
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86"
+        }
+        signingConfigs {
+            config {
+                keyAlias KEY_ALIAS
+                keyPassword KEY_PASSWORD
+                storeFile file(STORE_FILE)
+                storePassword STORE_PASSWORD
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "int", "ENV", "997"
+            signingConfig signingConfigs.config
+            debuggable true
+        }
+        debug {
+            minifyEnabled false
+            buildConfigField "int", "ENV", "999"
+            signingConfig signingConfigs.config
+        }
+        live {
+            minifyEnabled false
+            buildConfigField "int", "ENV", "998"
+            signingConfig signingConfigs.config
+            debuggable true
+        }
+    }
+    sourceSets {
+        main {
+            jni.srcDirs = []
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    dexOptions {
+        preDexLibraries true
+        javaMaxHeapSize "3g"
+        incremental true
+        dexInProcess = true
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+//    applicationVariants.all { variant ->
+//        variant.outputs.each { output ->
+//            def file = output.outputFile
+//            output.outputFile = new File(file.parent,
+//                    "jjd"  + "-" + buildTime() + ".apk")
+//            //生成的文件名：myapp+版本名+生成日期+.apk
+//        }
+//    }
+}
+
+def buildTime() {
+    def df = new SimpleDateFormat("MMdd")
+    df.setTimeZone(TimeZone.getDefault())
+    return df.format(new Date())
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile project(':frame')
+    compile project(':widget')
+    //    //可选，用于生成application类
+    //    provided 'com.tencent.tinker:tinker-android-anno:1.7.5'
+    //    //tinker的核心库
+    //    compile 'com.tencent.tinker:tinker-android-lib:1.7.5'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile 'com.joanzapata.pdfview:android-pdfview:1.0.4@aar'
+    compile 'com.github.barteksc:android-pdf-viewer:2.4.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile files('libs/tencentX5WebView.jar')
+    //    compile 'com.tencent.bugly:crashreport:2.4.0'
+    compile 'com.tencent.bugly:nativecrashreport:3.1.2'
+    compile 'com.tencent.bugly:crashreport_upgrade:1.2.3'
+    //其中latest.release指代最新版本号，也可以指定明确的版本号，例如1.0.0
+    compile files('libs/Msc.jar')
+    compile 'com.contrarywind:Android-PickerView:3.2.3'
+}

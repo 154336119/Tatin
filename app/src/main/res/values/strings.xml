@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">妥妥递投资者</string>
+    <string name="s_investor_qualified">合格投资者</string>
+    <string name="s_invitation_code">邀请码</string>
+    <string name="s_investor_type">投资者类型</string>
+    <string name="s_voucher_type">凭证类型</string>
+    <string name="s_upload_voucher">上传凭证</string>
+    <string name="s_not_upload">未上传</string>
+    <string name="s_login_personal">个人注册</string>
+    <string name="s_login_mechanism">机构注册</string>
+    <string name="input_phone_hint">请输入您的手机号</string>
+    <string name="login">登录</string>
+    <string name="s_dengluchenggong">登录成功</string>
+    <string name="forgot_pwd">忘记密码？</string>
+    <string name="register">注册</string>
+    <string name="s_zhucechenggong">注册成功</string>
+    <string name="intpu_pwd">请输入您的密码</string>
+    <string name="s_qingshurunindexinmima">请输入您的新密码</string>
+    <string name="s_qingshuruzhengquedeshoujihaoma">请输入正确的手机号码</string>
+    <string name="s_zhaohuimima">找回密码</string>
+    <string name="s_chongxinshezhimima">重新设置密码</string>
+    <string name="register_phone">请输入您的注册手机号</string>
+    <string name="get_phone_security_code">请输入您收到的验证码</string>
+    <string name="get_security_code">获取</string>
+    <string name="input_new_pwd">请输入您的新密码</string>
+    <string name="reseeting_pwd">重新设置密码</string>
+    <string name="home_menue">首页</string>
+    <string name="rank_menue">排行榜</string>
+    <string name="s_zhaohuimimachenggong">找回密码成功</string>
+    <string name="s_huanyinlaidaopp">欢迎来到妥妥递</string>
+    <string name="s_shoujihao">手机号</string>
+    <string name="s_denglumima">登录密码</string>
+    <string name="s_member_name">会员名</string>
+    <string name="s_wangjimima">忘记密码？</string>
+    <string name="s_mechanism_login">机构客户登录</string>
+    <string name="s_yanzhengma">验证码</string>
+    <string name="s_xinmima_hint">新密码（6-15位字母﹑数字组合）</string>
+    <string name="s_zaicishurumima">再次输入密码</string>
+    <string name="s_zhucezhanghubiaoshinintongyi">我已阅读并同意</string>
+    <string name="pp_user_agreement"><u>《妥妥递用户协议》</u></string>
+    <string name="s_yiyouzhanghao_qingdenglu">已有账号？请登录</string>
+    <string name="s_shoujihao_zhanghao">手机号/账号</string>
+    <string name="s_queding">确定</string>
+    <string name="s_qianhetong">签合同</string>
+    <string name="s_shangchuandakuanpingzheng">上传打款凭证</string>
+    <string name="s_wodexiaoxi">我的消息</string>
+    <string name="s_xiaoxi">消息</string>
+    <string name="s_shengming">声明</string>
+    <string name="s_shiyongbangzhu">使用帮助</string>
+    <string name="s_shenfengrenzheng">身份认证</string>
+    <string name="s_xiayibu">下一步</string>
+    <string name="s_querenxiugai">确认修改</string>
+    <string name="s_xingming">姓名</string>
+    <string name="s_shenfenzhenghao">身份证号</string>
+    <string name="s_yinhangkahao">银行卡号</string>
+    <string name="s_jibenxinxi">基本信息</string>
+    <string name="s_renlianjiance">人脸检测</string>
+    <string name="s_order_tag">私募基金</string>
+    <string name="s_kaishiyanzheng">开始验证</string>
+    <string name="s_qingzhengduishouji">请正对手机，进行人脸验证</string>
+    <string name="s_identity_remind">请您仔细准确填写认证信息，用于生成唯一的数字证书，保证您的信息安全。</string>
+    <string name="s_identity_remind_org">请您仔细准确填写认证信息，将对您进行身份认证</string>
+    <string name="s_gerenziliao">个人资料</string>
+    <string name="s_xitongshezhi">系统设置</string>
+    <string name="s_xiugaimima">修改密码</string>
+    <string name="s_ordinary_to_major_title">申请从“普通投资者”转化为“专业投资者</string>
+    <string name="s_pro_ordinary_to_major_content">本人承诺符合以下条件且提供的相关证明材料真实有效：金融资产不低于300万元或者最近3年个人年均收入不低于30万元，且具有1年以上证券、基金、期货、黄金、外汇等投资经历或者1年以上金融产品设计、投资、风险管理及相关工作经历。本人已知晓经营机构对专业投资者与普通投资者所履行的适当性义务的差别，且已知晓成为专业投资者所需承担的投资风险及后果。在此申请成为专业投资者，并自愿主动承担转化为专业投资者后可能产生的风险及后果。
+</string>
+    <string name="s_org_ordinary_to_major_content">本单位承诺符合以下条件且提供的相关证明材料真实有效：
+最近1年末净资产不低于1000万元，最近1年末金融资产不低于500万元，具有1年以上证券、基金、期货、黄金、外汇等投资经历。
+本单位已知晓经营机构对专业投资者与普通投资者所履行的适当性义务的差别，且已知晓成为专业投资者所需承担的投资风险及后果。
+在此申请成为专业投资者，并自愿主动承担转化为专业投资者后可能产生的风险及后果。</string>
+
+    <string name="s_major_to_ordinary_title">申请从“专业投资者”转化为“普通投资者”</string>
+    <string name="s_pro_major_to_ordinary_content">申请提交成功，请等待公司进行审核</string>
+    <string name="s_org_major_to_ordinary_content">本单位自愿放弃专业投资者身份，申请成为普通投资者，并已知晓且愿意履行普通投资者应履行的相关义务</string>
+
+    <string name="select_video_limit">最多选择%1$s个视频</string>
+
+    <string name="filter_password">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="risk_low">您适合购买的产品风险等级为<font color='#ff3838'>低</font>的基金</string>
+    <string name="risk_mid">您适合购买的产品风险等级为<font color='#ff3838'>中、低</font>的基金</string>
+    <string name="risk_hight">您适合购买的产品风险等级为<font color='#ff3838'>高、中、低</font>的基金</string>
+    <string name="s_riskAnswer">风险承受能力评测</string>
+
+    <string name="track_missed_dialog_title">检测失败</string>
+    <string name="track_missed_dialog_msg">动作幅度过大,请保持人脸在屏幕中央,重试一次</string>
+    <string name="time_out_dialog_title">检测超时</string>
+    <string name="time_out_dialog_msg">请在规定时间内完成指定动作,重试一次</string>
+    <string name="note_blink">请眨眨眼</string>
+    <string name="note_mouth">请张张嘴</string>
+    <string name="note_nod">请点点头</string>
+    <string name="note_yaw">请摇摇头</string>
+    <string name="blink">BLINK</string>
+    <string name="mouth">MOUTH</string>
+    <string name="nod">NOD</string>
+    <string name="yaw">YAW</string>
+    <string name="linkface_failure_dialog_title">采集失败, 再试一次吧</string>
+    <string name="restart_preview">确定</string>
+    <string name="linkface_note_main_text">认证时，请将镜头对准您的脸，并按提示进行</string>
+    <string name="linkface_note_noglasses_text">不要遮挡眼睛</string>
+    <string name="linkface_note_nohat_text">不要戴帽</string>
+    <string name="linkface_note_toodark_text">不要光线太暗</string>
+    <string name="linkface_note_not_note_next">下次不再提醒</string>
+    <string name="linkface_note_start_detect">开始采集</string>
+    <string name="linkface_failure_dialog_light_notice">光线充足</string>
+    <string name="linkface_failure_dialog_phone_notice">正对手机</string>
+    <string name="linkface_failure_dialog_glasses_notice">去除遮挡</string>
+    <string name="linkface_failure_dialog_time_notice">放缓速度</string>
+    <string name="linkface_ok_text">确定</string>
+    <string name="linkface_cancel_text">取消</string>
+    <string name="s_net_service">本公司已阅读并同意网络服务协议</string>
+    <string name="s_jijinfenxian">本公司已阅读基金风险揭示文档</string>
+    <string name="title_code">邀请码</string>
+    <string name="title_custimer_personal_e">合格投资者</string>
+    <string name="title_custimer_personal_pe">投资于所管理私募基金的私募基金管理人的从业人员</string>
+
+    <string name="title_custimer_org_p">专业投资机构</string>
+    <string name="title_custimer_org_l">法人及其他组织</string>
+    <string name="content_for_user_type_change">请您提示提供符合条件的材料，我们将尽快为您审核私募合格投资者资质。您可以选择以下任意一种证明方式。</string>
+    <string name="content_code">机构投资者注册需要填写“邀请码”，请联系您的理财师，理财师为您生成邀请码。
+</string>
+    <string name="content_custimer_personal_p">个人-专业投资者：\n①金融资产不低于500万元，或者最近3年个人年均收入不低于50万元；\n②具有2 年以上证券、基金、期货、黄金、外汇等投资经历，或者具有2 年以上金融产品设计、投资、风险管理及相关工作经历，或者属于经有关金融监管部门批准设立的金融机构（包括证券公司、期货公司、基金管理公司及其子公司、商业银行、保险公司、信托公司、财务公司等）及经行业协会备案或登记的证券公司子公司、期货公司子公司私募基金管理人的高级管理人员、获得职业资格认证的从事金融相关业务的注册会计师和律师。 \n个人-普通投资者：\n专业投资者之外的投资者为普通投资者
+</string>
+    <string name="content_custimer_personal_pe">A:根据《基金从业人员资格管理暂行规定》\n第二条 本规定所称基金从业人员包括下列人员：\n（一）基金管理公司、基金托管部的高级管理人员及其助理人员；\n高级管理人员是措基金管理公司、基金托管部的总经理、副总\n经理以及中国证监会认定的其他人员；\n（二）基金管理公司、基金托管部内设基金业务部门的正、副经理人员；\n（三）基金管理公司的基金经理；\n基金经理是指在基金管理公司中负\n责基金投资的专业人员；\n（四）基金管理公司的督察员；\n督察员是指在基金管理公司中负责公司监察稽核\n工作，并可以就监察稽核情况独立向公司董事长、中国证监会行使报告权的专业人员。\n（五）基金管理公司中从事研究开发、市场推介、销售、交易、基金财务、监察稽\n核、电脑管理等业务的专业人员；\n（六）基金托管部中从事研究开发、清算交割、基金财务、交易监控、监察稽核、\n电脑管理等业务的专业人员；\n（七）中国证券监督管理委员会（以下简称“中国证监会”）认定的其他人员。
+</string>
+
+    <string name="content_custimer_org_p">信托公司、保险公司、商业银行、证券公司、期货公司、基金管理人及其子公司；经协会备案或登记的证券公司子公司、期货公司子公司、私募基金管理人；QDII、QFII。</string>
+    <string name="content_custimer_org_l">法人及其他组织-专业投资者\n（一）经有关金融监管部门批准设立的财务公司\n（二）专业投资机构包括有关金融监管部门批准设立的财务公司面向投资者发行的理财产品，包括但不限于证券公司资产管理产品、基金管理公司及其子公司产品、期货公司资产管理产品、银行理财产品、保险产品、信托产品、经行业协会备案的私募基金。\n（三）社会保障基金、企业年金等养老基金，慈善基金等社会公益基金，\n（四）同时符合下列条件的法人或者其他组织：\n1.最近1 年末净资产不低于2000 万元；\n2.最近1 年末金融资产不低于1000 万元；\n3.具有2 年以上证券、基金、期货、黄金、外汇等投资经历。\n法人及其他组织-普通投资者\n专业投资者之外的投资者为普通投资者
+</string>
+
+</resources>
